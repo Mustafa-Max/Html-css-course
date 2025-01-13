@@ -1,0 +1,19 @@
+p {
+  font-family: Montserrat;
+  margin: 0;
+}
+
+.main-p {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.second-p {
+  font-size: 18px;
+}
+
+.second-p span {
+  text-decoration: underline;
+  font-weight: 500;
+}

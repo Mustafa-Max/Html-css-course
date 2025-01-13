@@ -1,0 +1,183 @@
+<style>
+.tahoma-font {
+  font-family: Tahoma, sans-serif;
+  font-weight: 700;
+}
+
+.arial-font {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+}
+
+.Sales-p {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  color: red;
+}
+
+.main-p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.second-p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+  margin-top: 0;
+}
+
+.course-info {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  width: 220px;
+}
+
+.get-started {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.shop-p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.apple-p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.learn-p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(0, 110, 255);
+}
+
+.new {
+  color: rgb(255, 123, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.product {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.781);
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.pros {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.781);
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.price {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.781);
+  margin-top: 0;
+}
+
+.buy-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgba(0, 132, 255, 0.877);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  display: block; /* Added for centering */
+  margin: 0 auto; /* Added for centering */
+}
+
+.mount {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.mount span {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.plus {
+  margin-top: 0;
+  font-size: 12px;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+}
+
+.hours{
+  font-size: 13px;
+  color: rgb(96, 96, 96);
+  margin-top: 0;
+}
+
+.hours span {
+  color: red;
+}
+
+.free {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.free span {
+  color: rgb(96, 96, 96);
+}
+
+.quote {
+  width: 490px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.end {
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.end span {
+  color: rgb(3, 161, 235);
+}
+
+
+
+</style>
