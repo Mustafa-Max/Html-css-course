@@ -1,0 +1,153 @@
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.green {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(120, 98%, 25%);
+  border-radius: 50%;
+}
+
+.Question-div {
+  width: 300px;
+  border: 1px solid rgb(196, 196, 196);
+  padding: 0px 20px 20px 20px;
+}
+
+.youtube-div {
+  width: 310px;
+  background-color: hsl(0, 0%, 12%);
+  padding: 5px 15px;
+}
+
+.install-p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.add-p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 53%);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Chellenge exercise */
+/* 9e */
+
+.tweet-box {
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.tweet-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.tweet-bar {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+  border: none;
+  color: hsl(0, 3%, 16%);
+}
+
+.tweet-btn {
+  background-color: hsl(210, 78%, 60%);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+}
+
+/* 9f */
+
+.friend-box {
+  width: 200px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+  margin: 20px;
+}
+
+.friend-img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 8px;
+}
+
+.friend-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(0, 0%, 16%);
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-left: 8px;
+}
+
+.mutual {
+  margin-left: 8px;
+  font-size: 14px;
+  color: hsl(0, 0%, 53%);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.add-btn {
+  margin-left: 8px;
+  background-color: hsl(210, 78%, 60%);
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* 9g */
+
+.friends-box {
+  display: inline-block;
+  width: 200px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+  margin: 20px;
+}
+
+/* 9h */
+
+.google-box, .logo-box {
+ text-align: center;
+ margin: 0;
+}
+
+.google-img {
+  width: 300px;
+  height: 100px;
+}
+
+.search-bar {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.google-btn, .lucky-btn {
+  background-color: hsl(0, 0%, 96%);
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+}
