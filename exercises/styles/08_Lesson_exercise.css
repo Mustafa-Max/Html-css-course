@@ -1,0 +1,104 @@
+.name-bar {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.survey-question {
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+
+.yes-btn, .no-btn {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.google-logo {
+  display: block;
+  margin: auto;
+  height: 100px;
+  width: 300px;
+}
+
+.search-google {
+  display: block;
+  margin: auto;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 1px 1px 5px 1px #ccc;
+}
+
+/*--------------- Challenge Exercises ----------- */
+
+.firstName-bar , .secondName-bar {
+  padding: 8px;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.email-bar {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: block;
+  width: 220px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.signUp-btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 240px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(57, 117, 233);
+  font-weight: 700;
+  border: none;
+}
+
+.request-p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.pickup-bar {
+  border: none;
+  background-color: rgb(240, 240, 240);
+  padding: 10px 15px;
+  width: 200px;
+  margin-bottom: 8px;
+}
+
+.dropoff-bar {
+  display: block;
+  border: none;
+  width: 200px;
+  background-color: rgb(240, 240, 240);
+  padding: 10px 15px;
+  margin-bottom: 25px;
+}
+
+.request-btn {
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-weight: 700;
+  border: none;
+  margin-right: 10px;
+}
+
+.schedule-btn {
+  border: none;
+  background-color: rgb(240, 240, 240);
+  padding: 10px 20px;
+}
