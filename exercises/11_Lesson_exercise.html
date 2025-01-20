@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 11 Exercise</title>
+    <style>
+      .bg-c-pink {
+        background-color: hsl(350, 75%, 84%);
+      }
+      .bg-c-lblue {
+        background-color: hsl(197, 45%, 80%);
+      }
+
+      .grid-1 {
+        display: grid;
+        grid-template-columns: 200px 75px;
+      }
+
+      .grid-2 {
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+      }
+
+      .grid-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+      }
+
+      /* 11d style */
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+
+      .grid-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 200px);
+        column-gap: 20px;
+        row-gap: 10px;
+      }
+
+      .card-img {
+        width: 100%;
+        height: 200px;
+      }
+
+      .card {
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+      }
+
+      .info-box {
+        padding-left: 10px;
+      }
+
+      .friend-name {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 14px;
+        margin-bottom: 8px;
+      }
+
+      .profile-info {
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        align-items: center;
+        column-gap: 10px;
+        margin-bottom: 10px;
+      }
+
+      .profile-info img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+
+      .profile-info p {
+        color: hsl(0, 0%, 50%);
+        font-size: 14px;
+      }
+
+      button {
+        background-color: hsl(220, 100%, 63%);
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="grid-1">
+      <div class="bg-c-lblue">200px</div>
+      <div class="bg-c-pink">75px</div>
+    </div>
+    <hr />
+    <div class="grid-2">
+      <div class="bg-c-lblue">col1</div>
+      <div class="bg-c-pink">col2</div>
+      <div class="bg-c-lblue">col3</div>
+    </div>
+    <hr />
+    <div class="grid-3">
+      <div class="bg-c-pink">col1</div>
+      <div class="bg-c-pink">col1</div>
+      <div class="bg-c-pink">col2</div>
+      <div class="bg-c-pink">col2</div>
+      <div class="bg-c-pink">col3</div>
+      <div class="bg-c-pink">col3</div>
+      <div class="bg-c-pink">col4</div>
+      <div class="bg-c-pink">col4</div>
+    </div>
+    <hr />
+    <!-- 11d exercise -->
+    <div class="grid-cards">
+      <div class="card">
+        <img
+          class="card-img"
+          src="images/Cat.jpg"
+          alt="cat with green background"
+        />
+        <div class="info-box">
+          <p class="friend-name">Oliver</p>
+          <div class="profile-info">
+            <img
+              src="images/profile_dog.jpg"
+              alt="dog with orange background"
+            />
+            <p>2 mutual friends</p>
+          </div>
+          <button>Add Friend</button>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          class="card-img"
+          src="images/cat2.jpg"
+          alt="cat with green background"
+        />
+        <div class="info-box">
+          <p class="friend-name">Mimi</p>
+          <div class="profile-info">
+            <img
+              src="images/profile_dog.jpg"
+              alt="dog with orange background"
+            />
+            <p>2 mutual friends</p>
+          </div>
+          <button>Add Friend</button>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          class="card-img"
+          src="images/dog.jpg"
+          alt="cat with green background"
+        />
+        <div class="info-box">
+          <p class="friend-name">Rex</p>
+          <div class="profile-info">
+            <img
+              src="images/profile_dog.jpg"
+              alt="dog with orange background"
+            />
+            <p>2 mutual friends</p>
+          </div>
+          <button>Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
