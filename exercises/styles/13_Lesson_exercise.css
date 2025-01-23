@@ -1,0 +1,185 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container-13a {
+    display: flex;
+}
+
+.item1-13a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
+  width: 100px;
+  padding: 15px;
+}
+
+.item1-13a p {
+  background-color: black;
+  color: white;
+  padding: 3px;
+}
+
+.item2-13a {
+  background-color: lightblue;
+  width: 200px;
+}
+
+/* Exercise 13b */
+
+.container-13b {
+    display: flex;
+}
+
+.item1-13b {
+  background-color: lightcoral;
+  width: 100px;
+}
+
+.item2-13b {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.row2-13b {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2-13b p {
+  color: white;
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+/* Exercise 13c */
+
+.container-13c {
+  margin: 5px;
+  padding: 15px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.index-label {
+  font-size: 14px;
+  color: hsl(0, 0%, 57%);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.email {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sender-pic-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.email-info .sender-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-header {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.email-time {
+  font-size: 14px;
+  color: hsl(0, 0%, 47%);
+}
+
+.sender-subject {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.sender-message {
+  color: hsl(0, 0%, 45%);
+
+}
+
+/* Exercise 13e */
+
+.container-13e {
+  margin: 5px;
+  padding: 10px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.item-13e {
+  margin-bottom: 20px;
+}
+
+/* Exercise 13f */
+
+.container-13f {
+  display: flex;
+  width: 450px;
+  gap: 10px;
+}
+
+.tweet-pic-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.tweet-user {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.tweet-user .name {
+  font-weight: 600;
+}
+
+.tweet-user .username {
+  font-weight: 600;
+  color: hsl(215, 6%, 37%);
+}
+
+.tweet-contect {
+  margin-top: 10px;
+  display: flex;
+  width: 350px;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid hsl(0, 0%, 83%);
+}
+
+.tweet-contect-profile {
+  background-color: hsl(0, 0%, 83%);
+  width: 100px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.tweet-contect-message {
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tweet-contect-header {
+  color: hsl(218, 6%, 37%);
+  margin-bottom: 5px;
+}
