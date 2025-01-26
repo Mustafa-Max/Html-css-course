@@ -1,0 +1,71 @@
+body {
+  height: 3000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 14a exercise */
+.contianer-14a {
+  position: fixed;
+
+  background-color: black;
+  color: white;
+  left: 80;
+  right: 20px;
+  top: 80;
+  bottom: 20px;
+}
+
+/* 14b exercise */
+
+aside {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  width: 100px;
+
+  background-color: green;
+  color: white;
+
+}
+
+/* 14c exercise */
+
+/* .container-14c {
+  background-color: black;
+  color: white;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+} */
+
+/* 14d exercise*/
+
+.container-14d {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.header-text {
+  font-weight: 600;
+}
